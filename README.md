@@ -24,6 +24,11 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 ## Tutorials
 
 
+## Community
+* [Zulip](https://leanprover.zulipchat.com/) is where the main action happens.
+* [leanprover-community website](https://leanprover-community.github.io/) and [Zulip archive](https://leanprover-community.github.io/archive/)
+* There are also discussions on the mathlib [issue tracker](https://github.com/leanprover-community/mathlib/issues) and [pull requests](https://github.com/leanprover-community/mathlib/pulls).
+
 ## Lean Repositories
 * The [core library](https://github.com/leanprover/lean/tree/master/library): ships with Lean.
 * [mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean.
@@ -35,7 +40,13 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 <!-- Sensitivity project intentionally left out as it is PR'd to archive. -->
 * Feel free to add your repository if you've done something substantial in Lean.
 
-## Information on Lean 4
+## Talks/papers
+*
+
+## Lean 4
+Lean 4 is the next version of Lean. It was made public early 2019, but is still missing certain core features as of October 2019 (such as a tactic framework)
+* [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
+* link to various talks/papers on Lean 4
 
 ## Known Bugs
 * variable `a` bug.
@@ -43,11 +54,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * Lean sometimes crashes on unexpected input.
 
 ## HoTT in Lean
-
 Homotopy type theory is not actively maintained in Lean. Here are some pointers to projects:
 * The [Lean 2 HoTT library](https://github.com/leanprover/lean2/blob/master/hott/hott.md).
 * The [Spectral repository](https://github.com/cmu-phil/Spectral) in Lean 2, doing more synthetic homotopy theory and formalizing the Serre spectral sequence.
 * The [Lean 3 HoTT library](https://github.com/gebner/hott3) (much smaller, not officially supported by Lean).
-
-## To sort
-* [leanprover-community website](https://leanprover-community.github.io/) and [Zulip archive](https://leanprover-community.github.io/archive/)
