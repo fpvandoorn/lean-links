@@ -18,7 +18,8 @@ This is a page that lists many useful links related to the [Lean Theorem Prover]
 
 * [Zulip](https://leanprover.zulipchat.com/): the Lean chatroom. Requires you to create an account. Ask any and all questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members).
 * [Mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean. Probably required for any nontrivial Lean project.
-* [Lean 3 on Github](https://github.com/leanprover/lean): the current version of Lean.
+* [Lean 3 on Github](https://github.com/leanprover/lean): the official current (frozen) version of Lean.
+* [Lean 3 community fork](https://github.com/leanprover-community/lean/): A version of Lean 3 maintained by the community, that is still being developed.
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean under development.
 * [Leanprover official website](http://leanprover.github.io/).
 
@@ -49,7 +50,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * If you want to compile mathlib yourself (not recommended unless you only want to use very low-level files), you can skip the steps under *Installing mathlib supporting tools*. Compiling all of mathlib will probably take more than an hour.
 * If you want to contribute to mathlib, [here](https://github.com/leanprover-community/mathlib/blob/master/docs/contribute/index.md) are some useful pointers.
 
-## Reference
+## Reference material
 * [Lean Reference Manual](https://leanprover.github.io/reference/).
 * [Mathlib documentation](https://leanprover-community.github.io/mathlib_docs/)
 * [Lean tactics for Coq users](https://github.com/jldodds/coq-lean-cheatsheet).
@@ -82,7 +83,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * Feel free to add your repository if you've done something substantial in Lean.
 
 ## Papers about Lean
-* [Lean Type Theory](https://github.com/digama0/lean-type-theory/releases): Meta-theoreic properties, including soundness, of Lean 3.
+* [The Type Theory of Lean](https://github.com/digama0/lean-type-theory/releases): Meta-theoretic properties, including soundness, of Lean 3.
 * [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 * [A metaprogramming framework for formal verification](https://dl.acm.org/citation.cfm?id=3110278): metaprogramming in Lean 3.
 * [The Lean Theorem Prover (System Description)](https://link.springer.com/chapter/10.1007/978-3-319-21401-6_26): system description of Lean 2 ([pdf](https://kilthub.cmu.edu/articles/The_Lean_Theorem_Prover_system_description_/6492815/files/11937416.pdf))
@@ -91,9 +92,10 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 ## Lean 4
 Lean 4 is the next version of Lean. It was made public early 2019, but is still missing certain core features as of October 2019 (such as a tactic framework)
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
+* [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 
 ## Misc
-* [ProvingGround](http://siddhartha-gadgil.github.io/ProvingGround/)
+<!-- * [ProvingGround](http://siddhartha-gadgil.github.io/ProvingGround/) -->
 
 ## HoTT in Lean
 [Homotopy type theory](https://homotopytypetheory.org/book/) is not actively maintained in Lean. Here are some pointers to existing projects:
