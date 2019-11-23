@@ -94,7 +94,7 @@ Lean 4 is the next version of Lean. It was made public early 2019, but is still 
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
 * [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 
-## Misc
+<!-- ## Misc -->
 <!-- * [ProvingGround](http://siddhartha-gadgil.github.io/ProvingGround/) -->
 
 ## HoTT in Lean
