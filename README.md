@@ -51,8 +51,9 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 
 ## Reference
 * [Lean Reference Manual](https://leanprover.github.io/reference/).
+* [Mathlib documentation](https://leanprover-community.github.io/mathlib_docs/)
 * [Lean tactics for Coq users](https://github.com/jldodds/coq-lean-cheatsheet).
-* [tactics in mathlib](https://github.com/leanprover-community/mathlib/blob/master/docs/tactics.md).
+* [Tactics in mathlib](https://github.com/leanprover-community/mathlib/blob/master/docs/tactics.md).
 
 ## Community
 * [Zulip](https://leanprover.zulipchat.com/) is where the main action happens.
