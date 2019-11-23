@@ -47,7 +47,6 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
   - [Mathlib documentation](https://leanprover-community.github.io/mathlib_docs/)
 * There are also discussions on the mathlib [issue tracker](https://github.com/leanprover-community/mathlib/issues) and [pull requests](https://github.com/leanprover-community/mathlib/pulls).
 * [IMO Grand Challenge](https://imo-grand-challenge.github.io/): a grand challenge to write an AI that can write formal proofs of IMO problems.
-<!-- [ProvingGround](http://siddhartha-gadgil.github.io/ProvingGround/) -->
 
 ## Lean Repositories / Papers using Lean
 * The [core library](https://github.com/leanprover/lean/tree/master/library): ships with Lean.
@@ -59,6 +58,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [ModalTab](https://github.com/minchaowu/ModalTab): Verified decision procedures for modal logics ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf)).
 * [Alive in Lean](https://sf.snu.ac.kr/aliveinlean/): A Verified LLVM Peephole Optimization Verifier (repository + paper linked on that page)
 * [Iterated chromatic localisation](https://github.com/NeilStrickland/itloc) with [corresponding paper](https://arxiv.org/abs/1907.07801).
+* [Schemes in Lean](https://github.com/ramonfmir/lean-scheme) ([project report](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1819-ug-projects/Fernandez-I-MirR-Schemes-in-Lean.pdf))
 * Feel free to add your repository if you've done something substantial in Lean.
 
 ## Papers about Lean
@@ -71,7 +71,8 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 Lean 4 is the next version of Lean. It was made public early 2019, but is still missing certain core features as of October 2019 (such as a tactic framework)
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
 
-<!-- ## Misc -->
+## Misc
+* [ProvingGround](http://siddhartha-gadgil.github.io/ProvingGround/)
 
 ## HoTT in Lean
 [Homotopy type theory](https://homotopytypetheory.org/book/) is not actively maintained in Lean. Here are some pointers to existing projects:
