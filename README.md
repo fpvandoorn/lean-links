@@ -1,7 +1,7 @@
 This is a page that lists many useful links related to the [Lean Theorem Prover](http://leanprover.github.io/)
 
 <!-- update table of contents using: https://imthenachoman.github.io/nGitHubTOC/ -->
-  - [Main links](#main-links)
+  <!-- - [Main links](#main-links)
   - [Try Lean](#try-lean)
   - [Learn Lean](#learn-lean)
   - [Installation](#installation)
@@ -12,7 +12,7 @@ This is a page that lists many useful links related to the [Lean Theorem Prover]
   - [Papers about Lean](#papers-about-lean)
   - [Lean 4](#lean-4)
   - [Misc](#misc)
-  - [HoTT in Lean](#hott-in-lean)
+  - [HoTT in Lean](#hott-in-lean) -->
 
 ## Main links
 
