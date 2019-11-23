@@ -2,18 +2,18 @@ This is a page that lists many useful links related to the [Lean Theorem Prover]
 
 ## Main links
 
-* [Zulip](https://leanprover.zulipchat.com/): the Lean chatroom. Requires you to create an account. Ask any and all questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members)
+* [Zulip](https://leanprover.zulipchat.com/): the Lean chatroom. Requires you to create an account. Ask any and all questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members).
 * [Mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean. Probably required for any nontrivial Lean project.
 * [Lean 3 on Github](https://github.com/leanprover/lean): the current version of Lean.
-* [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
-* [Leanprover official website](http://leanprover.github.io/)
+* [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean under development.
+* [Leanprover official website](http://leanprover.github.io/).
 
 ## Try Lean
 
-* [Try Lean in your browser](https://leanprover.github.io/live/3.4.1/)
-* [Try Lean + mathlib in your browser](https://leanprover-community.github.io/lean-web-editor/)
+* [Try Lean in your browser](https://leanprover.github.io/live/3.4.1/).
+* [Try Lean + mathlib in your browser](https://leanprover-community.github.io/lean-web-editor/).
 
-## Learning Lean
+## Learn Lean
 
 * [Kevin Buzzard's natural number game](http://wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game/) is a online interactive tutorial to Lean.
 * [Theorem Proving in Lean](https://leanprover.github.io/theorem_proving_in_lean/): a textbook to learn Lean with interactive code snippets.
@@ -36,9 +36,9 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * If you want to contribute to mathlib, [here](https://github.com/leanprover-community/mathlib/blob/master/docs/contribute/index.md) are some useful pointers.
 
 ## Reference
-* [Lean Reference Manual](https://leanprover.github.io/reference/)
-* [Lean tactics for Coq users](https://github.com/jldodds/coq-lean-cheatsheet)
-* [tactics in mathlib](https://github.com/leanprover-community/mathlib/blob/master/docs/tactics.md)
+* [Lean Reference Manual](https://leanprover.github.io/reference/).
+* [Lean tactics for Coq users](https://github.com/jldodds/coq-lean-cheatsheet).
+* [tactics in mathlib](https://github.com/leanprover-community/mathlib/blob/master/docs/tactics.md).
 
 ## Community
 * [Zulip](https://leanprover.zulipchat.com/) is where the main action happens.
@@ -71,11 +71,10 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 Lean 4 is the next version of Lean. It was made public early 2019, but is still missing certain core features as of October 2019 (such as a tactic framework)
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
 
-## Misc
-<!-- * link to various talks/papers on Lean 4 -->
+<!-- ## Misc -->
 
 ## HoTT in Lean
-Homotopy type theory is not actively maintained in Lean. Here are some pointers to projects:
+[Homotopy type theory](https://homotopytypetheory.org/book/) is not actively maintained in Lean. Here are some pointers to existing projects:
 * The [Lean 2 HoTT library](https://github.com/leanprover/lean2/blob/master/hott/hott.md).
 * The [Spectral repository](https://github.com/cmu-phil/Spectral) in Lean 2, doing more synthetic homotopy theory and formalizing the Serre spectral sequence.
 * The [Lean 3 HoTT library](https://github.com/gebner/hott3) (much smaller, not officially supported by Lean).
