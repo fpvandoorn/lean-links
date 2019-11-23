@@ -48,6 +48,11 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * There are also discussions on the mathlib [issue tracker](https://github.com/leanprover-community/mathlib/issues) and [pull requests](https://github.com/leanprover-community/mathlib/pulls).
 * [IMO Grand Challenge](https://imo-grand-challenge.github.io/): a grand challenge to write an AI that can write formal proofs of IMO problems.
 
+## FAQs
+
+* [FAQ of the Lean 3 repository](https://github.com/leanprover/lean/blob/master/doc/faq.md)
+* [FAQ in this repository](FAQ.md) (currently empty)
+
 ## Lean Repositories / Papers using Lean
 * The [core library](https://github.com/leanprover/lean/tree/master/library): ships with Lean.
 * [mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean ([paper](https://leanprover-community.github.io/papers/mathlib-paper.pdf)).
@@ -62,6 +67,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * Feel free to add your repository if you've done something substantial in Lean.
 
 ## Papers about Lean
+* [Lean Type Theory](https://github.com/digama0/lean-type-theory/releases): Meta-theoreic properties, including soundness, of Lean 3.
 * [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 * [A metaprogramming framework for formal verification](https://dl.acm.org/citation.cfm?id=3110278): metaprogramming in Lean 3.
 * [The Lean Theorem Prover (System Description)](https://link.springer.com/chapter/10.1007/978-3-319-21401-6_26): system description of Lean 2 ([pdf](https://kilthub.cmu.edu/articles/The_Lean_Theorem_Prover_system_description_/6492815/files/11937416.pdf))
