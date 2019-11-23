@@ -19,7 +19,7 @@ This is a page that lists many useful links related to the [Lean Theorem Prover]
 * [Zulip](https://leanprover.zulipchat.com/): the Lean chatroom. Requires you to create an account. Ask any and all questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members).
 * [Mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean. Probably required for any nontrivial Lean project.
 * [Lean 3 on Github](https://github.com/leanprover/lean): the official current (frozen) version of Lean.
-* [Lean 3 community fork](https://github.com/leanprover-community/lean/): A version of Lean 3 maintained by the community, that is still being developed.
+* [Lean 3 Community Edition](https://github.com/leanprover-community/lean/): a fork of the frozen Lean 3 repository maintained by the mathlib team.
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean under development.
 * [Leanprover official website](http://leanprover.github.io/).
 
