@@ -1,5 +1,19 @@
 This is a page that lists many useful links related to the [Lean Theorem Prover](http://leanprover.github.io/)
 
+<!-- update table of contents using: https://imthenachoman.github.io/nGitHubTOC/ -->
+  - [Main links](#main-links)
+  - [Try Lean](#try-lean)
+  - [Learn Lean](#learn-lean)
+  - [Installation](#installation)
+  - [Reference](#reference)
+  - [Community](#community)
+  - [FAQs](#faqs)
+  - [Lean Repositories / Papers using Lean](#lean-repositories--papers-using-lean)
+  - [Papers about Lean](#papers-about-lean)
+  - [Lean 4](#lean-4)
+  - [Misc](#misc)
+  - [HoTT in Lean](#hott-in-lean)
+
 ## Main links
 
 * [Zulip](https://leanprover.zulipchat.com/): the Lean chatroom. Requires you to create an account. Ask any and all questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members).
