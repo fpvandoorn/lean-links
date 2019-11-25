@@ -33,8 +33,8 @@ This is a page that lists many useful links related to the [Lean Theorem Prover]
 * [Kevin Buzzard's natural number game](http://wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game/) is a online interactive tutorial to Lean.
 * [Theorem Proving in Lean](https://leanprover.github.io/theorem_proving_in_lean/): a textbook to learn Lean with interactive code snippets.
 * [Logic and Proof](https://leanprover.github.io/logic_and_proof/): a textbook that is a first rigorous proving course that teaches Lean at the same time.
+* [Logical Verification in Lean (pdf)](https://github.com/blanchette/logical_verification_2019/raw/master/logical_verification_in_lean.pdf): course notes at VU Amsterdam ([course webpage](https://lean-forward.github.io/logical-verification/2019/index.html))
 * [Lean tutorial](https://github.com/leanprover-community/tutorials/blob/master/src/first_proofs.lean): a file with many descriptive comments.
-* [Programming in Lean](https://leanprover.github.io/programming_in_lean): chapters 8 and 9 might be useful if you want to learn to write tactics.
 * Ask questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members) on Zulip.
 
 ## Installation
@@ -69,29 +69,51 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [FAQ of the Lean 3 repository](https://github.com/leanprover/lean/blob/master/doc/faq.md)
 * [FAQ in this repository](FAQ.md) (currently empty)
 
-## Lean Repositories / Papers using Lean
-* The [core library](https://github.com/leanprover/lean/tree/master/library): ships with Lean.
-* [mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean ([paper](https://leanprover-community.github.io/papers/mathlib-paper.pdf)).
-* [mathlib archive](https://github.com/leanprover-community/mathlib/tree/master/archive): some formalization projects maintained by mathlib maintainers.
-* [Perfectoid Project](https://github.com/leanprover-community/lean-perfectoid-spaces): formalization of the definition of perfectoid spaces ([paper](https://arxiv.org/abs/1910.12320)).
-* [Flypitch](https://github.com/flypitch/flypitch): Formalization of the independence of the continuum hypothesis ([paper 1](https://arxiv.org/pdf/1904.10570.pdf), [paper 2](https://github.com/flypitch/flypitch-cpp-2020/releases/tag/1.0)).
-* Formalization of the [Cap set problem](https://github.com/lean-forward/cap_set_problem) ([paper](https://arxiv.org/abs/1907.01449)).
-* [ModalTab](https://github.com/minchaowu/ModalTab): Verified decision procedures for modal logics ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf)).
-* [Alive in Lean](https://sf.snu.ac.kr/aliveinlean/): A Verified LLVM Peephole Optimization Verifier (repository + paper linked on that page)
-* [Iterated chromatic localisation](https://github.com/NeilStrickland/itloc) with [corresponding paper](https://arxiv.org/abs/1907.07801).
-* [Schemes in Lean](https://github.com/ramonfmir/lean-scheme) ([project report](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1819-ug-projects/Fernandez-I-MirR-Schemes-in-Lean.pdf))
-* Feel free to add your repository if you've done something substantial in Lean.
+## How to Write Lean Tactics
+* [Tactics writing tutorial](https://github.com/leanprover-community/mathlib/blob/master/docs/extras/tactic_writing.md)
+* [Programming in Lean](https://leanprover.github.io/programming_in_lean): chapters 8 and 9 might be useful if you want to learn to write tactics.
 
 ## Papers about Lean
+* [Official list of publications](https://leanprover.github.io/publications/)
 * [The Type Theory of Lean](https://github.com/digama0/lean-type-theory/releases): Meta-theoretic properties, including soundness, of Lean 3.
 * [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 * [A metaprogramming framework for formal verification](https://dl.acm.org/citation.cfm?id=3110278): metaprogramming in Lean 3.
+* [Congruence Closure in Intensional Type Theory](https://leanprover.github.io/papers/congr.pdf): congruence closure in Lean 3.
 * [The Lean Theorem Prover (System Description)](https://link.springer.com/chapter/10.1007/978-3-319-21401-6_26): system description of Lean 2 ([pdf](https://kilthub.cmu.edu/articles/The_Lean_Theorem_Prover_system_description_/6492815/files/11937416.pdf))
 * [Elaboration in Dependent Type Theory](https://arxiv.org/abs/1505.04324): elaboration in Lean 2.
+
+## Lean Repositories
+* The [core library](https://github.com/leanprover/lean/tree/master/library): ships with Lean.
+* [mathlib](https://github.com/leanprover-community/mathlib): the main library of Lean ([paper](https://arxiv.org/abs/1910.09336)).
+* [mathlib archive](https://github.com/leanprover-community/mathlib/tree/master/archive): some formalization projects maintained by mathlib maintainers.
+* [Perfectoid Project](https://github.com/leanprover-community/lean-perfectoid-spaces): formalization of the definition of perfectoid spaces ([paper](https://arxiv.org/abs/1910.12320)).
+* [Flypitch](https://github.com/flypitch/flypitch): Formalization of the independence of the continuum hypothesis ([website](https://flypitch.github.io/), [paper 1](https://arxiv.org/pdf/1904.10570.pdf), [paper 2](https://github.com/flypitch/flypitch-cpp-2020/releases/tag/1.0)).
+* Formalization of the [Cap set problem](https://github.com/lean-forward/cap_set_problem) ([paper](https://arxiv.org/abs/1907.01449)).
+* [ModalTab](https://github.com/minchaowu/ModalTab): Verified decision procedures for modal logics ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf)).
+* [Developing Bug-Free Machine Learning Systems With Formal Mathematics](https://github.com/dselsam/certigrad) ([paper](https://arxiv.org/abs/1706.08605)).
+* [Alive in Lean](https://github.com/microsoft/aliveinlean): A Verified LLVM Peephole Optimization Verifier ([website](https://sf.snu.ac.kr/aliveinlean/), [paper](https://sf.snu.ac.kr/publications/aliveinlean.pdf)).
+* [Iterated chromatic localisation](https://github.com/NeilStrickland/itloc) ([paper](https://arxiv.org/abs/1907.07801)).
+* [Schemes in Lean](https://github.com/ramonfmir/lean-scheme) ([project report](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1819-ug-projects/Fernandez-I-MirR-Schemes-in-Lean.pdf)).
+* [Data types as quotients of polynomial functors](https://github.com/avigad/qpf) ([paper](https://www.andrew.cmu.edu/user/avigad/Papers/qpf.pdf)).
+* [Verified Decision Procedures for Modal Logics](https://github.com/minchaowu/ModalTab) ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf))
+* [A bi-directional extensible ad hoc interface between Lean and Mathematica](https://github.com/robertylewis/mathematica) ([website](https://robertylewis.com/leanmm/), [paper](https://robertylewis.com/leanmm/lean_mm.pdf))
+
+### Papers using Lean without dedicated repository
+* [Formalizing computability theory via partial recursive functions](https://arxiv.org/abs/1810.08380). The formalization is in [mathlib/computability](https://github.com/leanprover-community/mathlib/tree/master/src/computability).
+* [A formal proof of Hensel's lemma over the p-adic integers](https://robertylewis.com/padics/padics.pdf) ([website](https://robertylewis.com/padics/), the [formalization](https://github.com/leanprover-community/mathlib/tree/master/src/data/padics) is part of mathlib).
+* [Arithmetic and Casting in Lean](https://lean-forward.github.io/internships/arithmetic_and_casting_in_lean.pdf): A description of the [`norm_cast` tactic](https://github.com/leanprover-community/mathlib/blob/master/src/tactic/norm_cast.lean) in mathlib.
+* More reports/theses are listed on the [Lean Forward project page](https://lean-forward.github.io/#papers).
+
+### Papers using Lean 2
+* [Constructing the Propositional Truncation using Non-recursive HITs](https://arxiv.org/abs/1512.02274) ([code](https://github.com/fpvandoorn/leansnippets/blob/master/cpp.hlean)).
+* [The Cayley-Dickson Construction in Homotopy Type Theory](https://arxiv.org/abs/1610.01134) ([code](https://github.com/leanprover/lean2/blob/master/hott/homotopy/imaginaroid.hlean)).
+* [The real projective spaces in homotopy type theory](https://arxiv.org/abs/1704.05770) ([code](https://github.com/cmu-phil/Spectral/blob/master/homotopy/realprojective.hlean)).
+* [Higher Groups in Homotopy Type Theory](https://arxiv.org/abs/1802.04315) ([code](https://github.com/cmu-phil/Spectral/blob/master/higher_groups.hlean)).
 
 ## Lean 4
 Lean 4 is the next version of Lean. It was made public early 2019, but is still missing certain core features as of October 2019 (such as a tactic framework)
 * [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
+* [Lean 4: a guided preview](http://leanprover.github.io/talks/vu2019.pdf): a presentation about Lean 4 at Lean Together 2019.
 * [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 
 <!-- ## Misc -->
