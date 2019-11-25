@@ -57,7 +57,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [Tactics in mathlib](https://github.com/leanprover-community/mathlib/blob/master/docs/tactics.md).
 
 ## Community
-* [Zulip](https://leanprover.zulipchat.com/) is where the main action happens.
+* [Zulip](https://leanprover.zulipchat.com/) is a chat room where most of the action happens.
 * [leanprover-community website](https://leanprover-community.github.io/). This includes:
   - [Zulip archive](https://leanprover-community.github.io/archive/)
   - [Mathlib documentation](https://leanprover-community.github.io/mathlib_docs/)
@@ -97,6 +97,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [Data types as quotients of polynomial functors](https://github.com/avigad/qpf) ([paper](https://www.andrew.cmu.edu/user/avigad/Papers/qpf.pdf)).
 * [Verified Decision Procedures for Modal Logics](https://github.com/minchaowu/ModalTab) ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf))
 * [A bi-directional extensible ad hoc interface between Lean and Mathematica](https://github.com/robertylewis/mathematica) ([website](https://robertylewis.com/leanmm/), [paper](https://robertylewis.com/leanmm/lean_mm.pdf))
+* This list is likely incomplete!
 
 ### Papers using Lean without dedicated repository
 * [Formalizing computability theory via partial recursive functions](https://arxiv.org/abs/1810.08380). The formalization is in [mathlib/computability](https://github.com/leanprover-community/mathlib/tree/master/src/computability).
