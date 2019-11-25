@@ -33,7 +33,8 @@ This is a page that lists many useful links related to the [Lean Theorem Prover]
 * [Kevin Buzzard's natural number game](http://wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game/) is a online interactive tutorial to Lean.
 * [Theorem Proving in Lean](https://leanprover.github.io/theorem_proving_in_lean/): a textbook to learn Lean with interactive code snippets.
 * [Logic and Proof](https://leanprover.github.io/logic_and_proof/): a textbook that is a first rigorous proving course that teaches Lean at the same time.
-* [Logical Verification in Lean (pdf)](https://github.com/blanchette/logical_verification_2019/raw/master/logical_verification_in_lean.pdf): course notes at VU Amsterdam ([course webpage](https://lean-forward.github.io/logical-verification/2019/index.html))
+* [Logical Verification in Lean (pdf)](https://github.com/blanchette/logical_verification_2019/raw/master/logical_verification_in_lean.pdf): course notes for a [course](https://lean-forward.github.io/logical-verification/2019/index.html) at VU Amsterdam.
+* [Video tutorial](https://av-media.vu.nl/VUMedia/Play/27894c3a8a4d4768a0421f62e5345a6c1d) of type theory and Lean.
 * [Lean tutorial](https://github.com/leanprover-community/tutorials/blob/master/src/first_proofs.lean): a file with many descriptive comments.
 * Ask questions in the [new members stream](https://leanprover.zulipchat.com/#narrow/stream/113489-new-members) on Zulip.
 
@@ -93,10 +94,10 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [Developing Bug-Free Machine Learning Systems With Formal Mathematics](https://github.com/dselsam/certigrad) ([paper](https://arxiv.org/abs/1706.08605)).
 * [Alive in Lean](https://github.com/microsoft/aliveinlean): A Verified LLVM Peephole Optimization Verifier ([website](https://sf.snu.ac.kr/aliveinlean/), [paper](https://sf.snu.ac.kr/publications/aliveinlean.pdf)).
 * [Iterated chromatic localisation](https://github.com/NeilStrickland/itloc) ([paper](https://arxiv.org/abs/1907.07801)).
-* [Schemes in Lean](https://github.com/ramonfmir/lean-scheme) ([project report](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1819-ug-projects/Fernandez-I-MirR-Schemes-in-Lean.pdf)).
 * [Data types as quotients of polynomial functors](https://github.com/avigad/qpf) ([paper](https://www.andrew.cmu.edu/user/avigad/Papers/qpf.pdf)).
-* [Verified Decision Procedures for Modal Logics](https://github.com/minchaowu/ModalTab) ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf))
-* [A bi-directional extensible ad hoc interface between Lean and Mathematica](https://github.com/robertylewis/mathematica) ([website](https://robertylewis.com/leanmm/), [paper](https://robertylewis.com/leanmm/lean_mm.pdf))
+* [Verified Decision Procedures for Modal Logics](https://github.com/minchaowu/ModalTab) ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf)).
+* [A bi-directional extensible ad hoc interface between Lean and Mathematica](https://github.com/robertylewis/mathematica) ([website](https://robertylewis.com/leanmm/), [paper](https://robertylewis.com/leanmm/lean_mm.pdf)).
+* [Schemes in Lean](https://github.com/ramonfmir/lean-scheme) ([project report](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1819-ug-projects/Fernandez-I-MirR-Schemes-in-Lean.pdf)).
 * This list is likely incomplete!
 
 ### Papers using Lean without dedicated repository
@@ -105,15 +106,13 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [Arithmetic and Casting in Lean](https://lean-forward.github.io/internships/arithmetic_and_casting_in_lean.pdf): A description of the [`norm_cast` tactic](https://github.com/leanprover-community/mathlib/blob/master/src/tactic/norm_cast.lean) in mathlib.
 * More reports/theses are listed on the [Lean Forward project page](https://lean-forward.github.io/#papers).
 
-### Papers using Lean 2
-* [Constructing the Propositional Truncation using Non-recursive HITs](https://arxiv.org/abs/1512.02274) ([code](https://github.com/fpvandoorn/leansnippets/blob/master/cpp.hlean)).
-* [The Cayley-Dickson Construction in Homotopy Type Theory](https://arxiv.org/abs/1610.01134) ([code](https://github.com/leanprover/lean2/blob/master/hott/homotopy/imaginaroid.hlean)).
-* [The real projective spaces in homotopy type theory](https://arxiv.org/abs/1704.05770) ([code](https://github.com/cmu-phil/Spectral/blob/master/homotopy/realprojective.hlean)).
-* [Higher Groups in Homotopy Type Theory](https://arxiv.org/abs/1802.04315) ([code](https://github.com/cmu-phil/Spectral/blob/master/higher_groups.hlean)).
+## Conferences
+* [Lean Together 2019](https://lean-forward.github.io/lean-together/2019/) ([recorded videos](https://lean-forward.github.io/lean-together/2019/#videos))
+* [Lean Together 2020](http://www.andrew.cmu.edu/user/avigad/meetings/fomm2020/)
 
 ## Lean 4
 Lean 4 is the next version of Lean. It was made public early 2019, but is still missing certain core features as of October 2019 (such as a tactic framework)
-* [Lean 4 on Github](https://github.com/leanprover/lean4): the next version of Lean.
+* [Lean 4 on Github](https://github.com/leanprover/lean4): the source code.
 * [Lean 4: a guided preview](http://leanprover.github.io/talks/vu2019.pdf): a presentation about Lean 4 at Lean Together 2019.
 * [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
 
@@ -121,7 +120,13 @@ Lean 4 is the next version of Lean. It was made public early 2019, but is still 
 <!-- * [ProvingGround](http://siddhartha-gadgil.github.io/ProvingGround/) -->
 
 ## HoTT in Lean
-[Homotopy type theory](https://homotopytypetheory.org/book/) is not actively maintained in Lean. Here are some pointers to existing projects:
+[Homotopy type theory](https://homotopytypetheory.org/book/) is not actively maintained in Lean. Here are some pointers to past projects:
 * The [Lean 2 HoTT library](https://github.com/leanprover/lean2/blob/master/hott/hott.md).
 * The [Spectral repository](https://github.com/cmu-phil/Spectral) in Lean 2, doing more synthetic homotopy theory and formalizing the Serre spectral sequence.
 * The [Lean 3 HoTT library](https://github.com/gebner/hott3) (much smaller, not officially supported by Lean).
+
+### Papers using Lean 2
+* [Constructing the Propositional Truncation using Non-recursive HITs](https://arxiv.org/abs/1512.02274) ([code](https://github.com/fpvandoorn/leansnippets/blob/master/cpp.hlean)).
+* [The Cayley-Dickson Construction in Homotopy Type Theory](https://arxiv.org/abs/1610.01134) ([code](https://github.com/leanprover/lean2/blob/master/hott/homotopy/imaginaroid.hlean)).
+* [The real projective spaces in homotopy type theory](https://arxiv.org/abs/1704.05770) ([code](https://github.com/cmu-phil/Spectral/blob/master/homotopy/realprojective.hlean)).
+* [Higher Groups in Homotopy Type Theory](https://arxiv.org/abs/1802.04315) ([code](https://github.com/cmu-phil/Spectral/blob/master/higher_groups.hlean)).
