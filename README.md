@@ -77,7 +77,7 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 ## Papers about Lean
 * [Official list of publications](https://leanprover.github.io/publications/)
 * [The Type Theory of Lean](https://github.com/digama0/lean-type-theory/releases): Meta-theoretic properties, including soundness, of Lean 3.
-* [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4.
+* [Counting Immutable Beans: Reference Counting Optimized for Purely Functional Programming](https://arxiv.org/abs/1908.05647): reference counting in Lean 4 ([appendix](https://leanprover.github.io/papers/beans_appendix.pdf), [partial formalization](https://github.com/mhuisi/rc-correctness), [bachelor thesis about partial formalization](https://pp.ipd.kit.edu/uploads/publikationen/huisinga19bachelorarbeit.pdf)).
 * [A metaprogramming framework for formal verification](https://dl.acm.org/citation.cfm?id=3110278): metaprogramming in Lean 3.
 * [Congruence Closure in Intensional Type Theory](https://leanprover.github.io/papers/congr.pdf): congruence closure in Lean 3.
 * [The Lean Theorem Prover (System Description)](https://link.springer.com/chapter/10.1007/978-3-319-21401-6_26): system description of Lean 2 ([pdf](https://kilthub.cmu.edu/articles/The_Lean_Theorem_Prover_system_description_/6492815/files/11937416.pdf))
@@ -98,7 +98,8 @@ Don't forget to also follow the instructions on [Lean Projects](https://github.c
 * [Verified Decision Procedures for Modal Logics](https://github.com/minchaowu/ModalTab) ([paper](http://drops.dagstuhl.de/opus/volltexte/2019/11086/pdf/LIPIcs-ITP-2019-31.pdf)).
 * [A bi-directional extensible ad hoc interface between Lean and Mathematica](https://github.com/robertylewis/mathematica) ([website](https://robertylewis.com/leanmm/), [paper](https://robertylewis.com/leanmm/lean_mm.pdf)).
 * [Schemes in Lean](https://github.com/ramonfmir/lean-scheme) ([project report](https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/1819-ug-projects/Fernandez-I-MirR-Schemes-in-Lean.pdf)).
-* This list is likely incomplete!
+* [Formally Verified Insertion of Reference Counting Instructions](https://github.com/mhuisi/rc-correctness) ([bachelor thesis](https://pp.ipd.kit.edu/uploads/publikationen/huisinga19bachelorarbeit.pdf))
+* This list is incomplete! Feel free to suggest additions (on Zulip).
 
 ### Papers using Lean without dedicated repository
 * [Formalizing computability theory via partial recursive functions](https://arxiv.org/abs/1810.08380). The formalization is in [mathlib/computability](https://github.com/leanprover-community/mathlib/tree/master/src/computability).
